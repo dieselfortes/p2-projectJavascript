@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: "Michroma", sans-serif;
+
+  font-style: normal;
+
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    a:hover{ 
+        color: black;
+    }
+   
+    background: linear-gradient(to bottom, #1d1136, #A374FF);
+}
+
+.container {
+    width: 99.2vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+   
+    color: white;
+    p{
+        text-align: center;
+        font-size: 2em;
+    }
+
+}
+
+.scroll{
+    font-size: 1.6em;
+}
+
+nav{
+    display: flex;
+}
+
+header {
+    position: sticky;
+    width: 99.2vw;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    color: #fff;
+    font-size: 1.5em;
+    width: 100dvw;
+     display: flex;
+         background-color: #251645;
+         border-bottom-style:solid ;
+         border-color: #c18cfd;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+h1 {
+    font-size: 7em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 3.6em;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 0px;
+    padding-top: 200px;
+}
+
+.container-3 {
+    width: 99.2vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0px;
+  
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 150;
+    color: white;
+    padding-top: 188px;
+    text-align: center;
+}
+
+.placeholder-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.placeholder {
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px   ;
+}
+
+footer {
+       background-color: #A374FF;
+    color: #050505;
+    text-align: center;
+    padding: 20px;
+             background-color: #251645;
+         border-top-style:solid ;
+         border-color: #f7f6f8;
+     .footer-home{
+        color: rgb(252, 252, 252);
+     }
+    }
+ 
+    @media (max-width: 1000px){
+        .placeholder-position{
+            flex-direction: column;
+            align-items: center;
+            gap: 75px;
+        }
+        .nav-links{
+            font-size: 1em;
+        }
+    @media (max-width: 600px){
+        .link-2{
+            display: none;
+        }
+        .placeholder{
+            max-width: 200px;
+            max-height: 150px;
+        }
+    }    
+    }
+
